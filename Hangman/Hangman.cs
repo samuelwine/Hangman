@@ -4,12 +4,12 @@ namespace HangmanGame
 {
     public class Hangman
     {
-        public readonly string secretWord;
-        public int guessLimit;
+        public string secretWord;
+        public int guessLimit = 10;
 
         public Hangman(string input)
         {
-            this.secretWord = input.ToUpper();
+            secretWord = input.ToUpper();
         }
     }
 }

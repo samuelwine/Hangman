@@ -17,7 +17,6 @@ namespace HangmanTests
         {
             var game = new Hangman("hello");
             Assert.True(game.guessLimit > 0);
-
         }
     }
 }
